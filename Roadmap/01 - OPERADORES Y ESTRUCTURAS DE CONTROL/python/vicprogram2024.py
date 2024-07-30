@@ -21,3 +21,4 @@ print (f"El porcentaje de 10 % 15 = {resultado_porcentaje}")
 print (f"La pontencia de 10 ** 15 = {resultado_potencia}")
 print (f"La division de numero entero de 10 // 15 = {resultado_diventero}")
 
+#
