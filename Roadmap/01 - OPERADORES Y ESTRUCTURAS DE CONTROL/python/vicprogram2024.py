@@ -141,6 +141,19 @@ while num <= 15:
     print(num)
     num += 1
 
+print ("!Bienvenido a Adivina el numero!")
+
+n = 5
+k = 1
+while True:
+    x = int (input("Ingrese un numero entre 1 y 10: "))
+    if x == n:
+        print (f"Has adivinado despues de {k} intentos")
+        break
+
+    else: 
+        print(f"{x} no es el numero, intentelo nuevamente")
+    k += 1  
     
     
 """ 
