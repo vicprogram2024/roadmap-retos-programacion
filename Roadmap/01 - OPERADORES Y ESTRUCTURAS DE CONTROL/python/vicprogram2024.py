@@ -101,7 +101,55 @@ print (f"valor is not valor1 es: {valor is not valor1}")
 print (f"La letra 'i' in 'Victor': {'i' in 'Victor'} ")
 print (f"La letra 'n' in not 'Victor': {'n' not in'Victor'} ")
 
-S
+"""
 
+ESTRUCTURAS DE CONTROL
 
+"""
 
+# CONDICONALES
+
+"""
+Le permite nuestro codigo verificar cual camino puede tomar.
+Si algo se cumple toma este camino, sino se cumple entonces toma este otro camino 
+
+"""
+
+a=27
+if a >= 10 and a <=25 :
+    print ("Mi numero se encuentra entre 10 y 25")
+elif a < 10:
+    print ("Mi numero es menor a 10") 
+else:
+    print ("Mi numero es mayor a 25")
+
+# INTERATIVAS 
+""" Dentro de las interativas encontramos los bucles de for y while"""
+
+# FOR 
+palabra = "Victor"
+for list in palabra:
+    print (list)
+
+for i in range (4):
+    print (i)
+
+# WHILE
+
+num = 1
+while num <= 15:
+    print(num)
+    num += 1
+
+    
+    
+""" 
+EXTRAS
+
+"""
+print("CASO EXTRA")
+
+for number in range (10, 56):
+    if number % 2 == 0 and number != 16 and number %3 != 0:
+        print (number)
+    
